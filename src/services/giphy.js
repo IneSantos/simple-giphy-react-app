@@ -13,15 +13,13 @@ const getRandomSearchQuery = () => {
 
 export const getRandomGif = async () => {
     try {
-        const results = await axios(`${GIPHY_URL}/search`, {
+        const results = await axios(`${GIPHY_URL}/random`, {
           params: {
             api_key: API_KEY,
-            q: getRandomSearchQuery(),
-            limit: 1
+            tag: getRandomSearchQuery()
           }
         });
-
-        return results.data.data[0];
+        return results.data.data;
       } catch (err) {
         return err;
       }
