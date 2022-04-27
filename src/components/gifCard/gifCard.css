@@ -28,6 +28,11 @@
 }
 
 
+.gif-card-container:hover {
+    cursor: pointer;
+}
+
+
 .gif-label {
     margin-top: 30px;
     font-size: 18px;
