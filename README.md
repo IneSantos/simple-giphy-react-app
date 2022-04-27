@@ -1,6 +1,20 @@
-# Getting Started with Create React App
+# Simple animal Gif app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project consists of a web application that allows users to see a random GIF from an array of animal names. The idea was to build something really simple to be used by kids while they wait for their appointments. The idea is to tap or click to see a new GIF indefinitely. The GIfs are related to animals: cats, dogs, elephants, lions, and monkeys.
+
+
+## Decision process
+
+To build this application I decided to use [Create React App](https://github.com/facebook/create-react-app) since I'm already familiar with React and it is a fairly simple and complete way to start a project. 
+All the design was developed by me, I opted-out using any design framework.
+
+Any questions please don't hesitate to contact me.
+
+---
+
+After downloading the project don't forget to run  `npm install` or  `yarn install`
+
+---
 
 ## Available Scripts
 
