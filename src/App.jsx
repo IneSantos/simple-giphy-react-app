@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 import { getRandomGif } from "./services/giphy";
 import "./App.css";
 import Loader from "./components/loader/loader.jsx";
+import Error from "./components/error/error.jsx"
 import GifCard from "./components/gifCard/gifCard.jsx";
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
   }, []);
 
   if(isLoading) return <Loader />
+  if(isError) return <Error />
 
   return (
     <GifCard title={gif.title} src={gif.images.fixed_height.url} altText={gif.title} onClick={generateGif}/>
