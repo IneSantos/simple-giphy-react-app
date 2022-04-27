@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const GIPHY_URL = "https://api.giphy.com/v1/gifs";
-const API_KEY = "tAEFUgagRjRNkU24orQdFB8EHMcNTUSe";
+const API_KEY = "D31L73ySufmBJ3YBDkmbVnH9TuWXuvMa";
 const SEARCH_TERMS = ["cats", "dogs", "elephants", "lions", "monkeys"];
 
 
